@@ -1,0 +1,10 @@
+# kubernetes/namespace.yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: gitops-app
+  labels:
+    name: gitops-app
+    environment: production
+    managed-by: argocd
+    app: gitops
