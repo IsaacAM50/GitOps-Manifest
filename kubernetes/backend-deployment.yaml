@@ -35,12 +35,12 @@ spec:
         - name: CIRCLECI_TOKEN
           valueFrom:
             secretKeyRef:
-              name: app-secrets
+              name: tokens-secrets
               key: circleci-token
         - name: GITHUB_TOKEN
           valueFrom:
             secretKeyRef:
-              name: app-secrets
+              name: tokens-secrets
               key: github-token
 
         # ConfigMap values
