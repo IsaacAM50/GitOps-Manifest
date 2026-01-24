@@ -32,6 +32,8 @@ spec:
           value: "0.0.0.0"
         - name: GITHUB_USERNAME
           value: "IsaacAM50"
+        - name: REPO_NAME
+          value: "GitOps"
         # Secrets (referencias)
         - name: CIRCLECI_TOKEN
           valueFrom:
