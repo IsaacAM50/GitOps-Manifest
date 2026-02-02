@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: ghcr.io/isaacam50/gitops-backend:holaaa-20260202-051522
+          image: ghcr.io/isaacam50/gitops-backend:pepe-20260202-051529
           ports:
             - containerPort: 8000
           env:
